@@ -1,6 +1,8 @@
 # Social Tree - Desafio Rocketseat
 ![preview](./assets/assets/preview.png)
 
+
+
 Desafio proposto na plataforma da Rocketseat.
 
 [Clique aqui para acessar](https://Anderson-Kolassa.github.io/Social_Tree)
