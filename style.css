@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    padding:50px;
+}
+
+header div{
+    width:120px;
+    margin:0 auto;
+    border-radius:50%;
+    display:flex;
+    padding:4px;
+}
+header div img {
+    width:100%;
+    border-radius:50%;
+    border:3px solid #BB99DD;
+    padding:4px;
+}
+
+header div:hover {
+    transform:scale(1.1);
+}
+
+header p a{
+    display:flex;
+    justify-content:center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #BB99DD;
+    text-decoration:none;
+}
+
+header p a:hover{
+    transform:scale(1.1);
+}
+
+.link-list{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    height:auto;
+}
+
+.link-item{
+    width:326px;
+    height:49px;
+    border:2px solid #BB99DD;
+    border-radius: 4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.link-item a {
+    text-decoration:none;
+    color:#BB99DD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.svgs{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding-top:50px;
+    
+}
+
+.twitter:hover{
+    transform:scale(1.2);
+}
+
+.twitch:hover{
+    transform:scale(1.2);
+}
+
+.instagram:hover{
+    transform:scale(1.2);
+}
+
+.linkedin:hover{
+    transform:scale(1.2);
+}
+
+.github:hover{
+    transform:scale(1.2);
+}
